@@ -57,7 +57,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .logo:hover {
@@ -169,8 +169,8 @@ section {
 
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 1200;
+    width: 1200;
     margin: auto 0;
 }
   
