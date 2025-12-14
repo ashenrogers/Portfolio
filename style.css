@@ -266,9 +266,12 @@ section {
 }
   
 .about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;        
+  flex-wrap: wrap;      
+  justify-content: center; 
 }
   
 .about-details-container {
@@ -355,7 +358,9 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
-    position: relative;
+  position: relative;
+  height: fit-content;
+  margin-bottom: 2rem; 
 }
   
 .color-container {
